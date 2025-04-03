@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRU Cache with Circular Doubly Linked List</title>
+    <link rel="stylesheet" href="lru_cache.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LRU Cache Demo (Circular Doubly Linked List)</h1>
+        <div class="controls">
+            <input type="number" id="keyInput" placeholder="Enter key">
+            <button onclick="getValue()">Get Value</button>
+            <button onclick="putValue()">Put Value</button>
+            Capacity: <input type="number" id="capacity" value="3" min="1">
+        </div>
+        <div id="cacheDisplay" class="cache-box"></div>
+        <div id="output"></div>
+    </div>
+
+    <script src="lru_cache.js"></script>
+</body>
+</html>

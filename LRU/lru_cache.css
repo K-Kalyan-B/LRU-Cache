@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+.cache-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.node {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+.arrow {
+    margin: 0 5px;
+}
+.controls {
+    margin: 20px 0;
+}
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
